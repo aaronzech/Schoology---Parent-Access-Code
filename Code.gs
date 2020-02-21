@@ -126,10 +126,12 @@ function emailParentNotFound()
     var subject = "Schoology - Parent Access Code - NOT FOUND";
 
     // send the email
-    MailApp.sendEmail(parentEmail, subject, message);
+    MailApp.sendEmail(parentEmail, subject, message); // test noReply paremeter. 
+    
   
 }
 
+// This function marks a cell on the response sheet to let the user know that the code executed and wether or not it executed correctly
 function markEmailed()
 {
   // Set EMAIL
