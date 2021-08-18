@@ -1,5 +1,4 @@
 # Schoology---Parent-Access-Code
-Script will email the parent after a Google form submission their student's access code for Schoology.
 
 **Description:** This google apps script will send an email to the user (parent) their student's access code for Schoology, after submitting the form.
 
